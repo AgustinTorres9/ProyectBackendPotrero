@@ -1,0 +1,391 @@
+.navbar{
+    background-color: yellow !important;
+}
+
+.myNavBarLogo{
+    margin-left: 5%;
+}
+
+.navbar-text{
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.Productos{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ProductosText{
+    text-align: center;
+}
+.card-group{
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 418px;
+}
+
+.card{
+    height: auto;
+    width: 168px;
+    border-style: solid;
+    border-color: red;
+}
+
+.card span{
+    
+}
+
+.card img{
+    align-self: center;
+}
+
+.card-title{
+    font-size: 14px;
+    max-width: 33ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0,0,0,.9);
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 12px;
+    max-height: 50px;
+}
+
+.card-text{
+    align-items: baseline;
+    display: flex;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.myCardGroup{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.myCard{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.myCardImgContainer{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.myCardImg{
+    max-width: 150px;
+}
+
+.myContent h5{
+    font-size: 14px;
+    max-width: 33ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000000e6;
+    line-height: 18px;
+    margin-top: 12px;
+    max-height: 50px;
+    margin: 10px;
+}
+
+.myContent p{
+    font-size: 14px;
+    max-width: 33ch;
+    color: #000000e6;
+    line-height: 18px;
+    margin-top: 12px;
+    max-height: 50px;
+    margin: 10px;
+}
+
+.productBody{
+    background-color: rgb(228, 228, 228);
+}
+
+.product{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.productImg{
+    
+}
+
+.productInfo{
+    flex-direction: column;
+    margin: 5px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    color: rgb(43, 43, 43);
+    margin-bottom: 0;
+}
+
+.descImg{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.descSection{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+}
+
+.descArticle p{
+    font-size: 2.125em;
+    line-height: 1.2;
+}
+
+.descArticleImg{
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.descArticleImgGrid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.descArticleImgGrid img{
+    width: 48%;
+    height: 50%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.video{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    border: 5px;
+}
+
+.myContact{
+    margin: 10%;
+    border-radius: 10px;
+    border: yellow solid 5px;
+    background-color: yellow;
+}
+
+.form-label{
+    margin-left: 10px;
+}
+
+.login{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.loginPanel1{
+    width: 30%;
+}
+
+.loginPanel2{
+    width: 50%;
+}
+
+.mlBtn{
+    background-color: #4a8df1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px;
+    text-align: center;
+    width: auto;
+    color: azure;
+}
+
+.mlBtn:hover{
+    background-color: #275aa7;
+}
+
+.mlBtn-green{
+    background-color: #4af150;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px;
+    text-align: center;
+    width: auto;
+    color: azure;
+}
+
+.mlBtn-red{
+    background-color: #ff5339;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px;
+    text-align: center;
+    width: auto;
+    color: azure;
+}
+
+.mlBtn-red:hover{
+    font-weight: bold;
+    background-color: #a13625;
+}
+
+.mlBtn-secondary{
+    
+    
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #4a8df1;
+}
+
+.mlbtn-secondary:hover{
+    font-weight: bold;
+    color: #275aa7;
+}
+
+.mlBtn-cancel{
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #d24e26;
+}
+
+.mlTitle{
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.panelContainer{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: outset;
+    border-color: rgb(167, 167, 167);
+}
+
+/*.panelOption{
+    width: 80%;
+    display:flex;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    justify-content: left;
+}
+
+.panelOption h3{
+    width: auto;
+    font-size: 20px;
+}
+
+.panelOption input{
+    margin-top: 5px;
+    width: auto;
+    height: 100%;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+}*/
+
+/*large*/
+@media (max-width:992px) {
+    .ml-logo img{
+        width: 100%;
+    }
+    .productImg{
+        width: 50%;
+        height: 50%;
+    }
+    .productInfo{
+        width: 50%;
+    }
+}
+
+/*medium*/
+@media (max-width:768px) {
+    .ml-logo img{
+        width: 60%;
+    }
+}
+
+/*small*/
+
+@media (max-width:575px) {
+    .card-group{
+        /*
+        display: flex;
+        */
+    }
+    .card{
+        margin-left: 5px;
+        min-width: 168px;
+    }
+    
+}
+
+@media (min-width:576px) {
+    .ml-logo img{
+        
+    }
+    
+}
